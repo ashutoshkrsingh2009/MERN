@@ -1,0 +1,16 @@
+.box{
+    border: 5px solid pink;
+    height: 200px;
+    width: 200px;
+
+    /* padding: 20px; */
+    /* padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 60px; */
+
+    padding: 10px 200px 300px 400px;
+    margin: 30px;
+    
+
+}

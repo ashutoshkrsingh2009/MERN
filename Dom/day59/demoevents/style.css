@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* #navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: rgb(104, 132, 171);
+    color: white;
+}
+
+#btns{
+    display: flex;
+    gap: 30px;
+}
+#text{
+    height: 100vh;
+}
+
+#ip{
+    border: 1px solid black;
+    border-radius: 25px;
+} */
+
+/* full class by own  */
+
+#navbar{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: aqua;
+}
+
+#divbar{
+    display: flex;
+    gap:20px;
+    
+}
+#divbar2{
+    height: 100vh;
+}
+#inputbar{
+    border-radius: 50px;
+    padding: 4px;
+
+}

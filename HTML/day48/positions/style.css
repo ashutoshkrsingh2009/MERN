@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    width: fit-content;
+    border: 5px solid red;
+}
+
+.children-static{
+    height: 100px;
+    width: 200px;
+    border: 1px solid yellow;
+    display: inline-block;
+}
+#static-special{
+    position: static;
+    left: 100px;
+}
+
+
+/* now relative position */
+
+
+
+.parent{
+    width: fit-content;
+    border: 5px solid red;
+}
+
+.children-relative{
+    height: 100px;
+    width: 200px;
+    border: 1px solid yellow;
+    display: inline-block;
+}
+#relative-special{
+    position: relative;
+    bottom: 70px;
+}
+
+
+/* absolute positions */
+
+.parent{
+    position: relative;
+    width: fit-content;
+    border: 5px solid red;
+}
+
+.children-absolute{
+    height: 100px;
+    width: 200px;
+    border: 1px solid yellow;
+    display: inline-block;
+}
+#absolute-special{
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+}

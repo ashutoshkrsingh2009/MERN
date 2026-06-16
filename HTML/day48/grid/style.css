@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* 
+#grid{
+    display: grid; */
+    /* gap: 5vw; */
+    /* row-gap: 5vh;
+    column-gap: 5vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  */
+    /* grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: 100px 200px 300px 400px; */  
+    
+/* } */
+/* .box{
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+} */
+
+/* bento box style */
+
+/* #parent{ */
+    /* border: 5px solid gold; */
+    /* height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1fr 1fr; */
+
+/* } */
+
+/* .child{ */
+    /* border: 2px solid red; */
+/* }
+
+#one{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: burlywood;
+}
+#two{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: brown;
+}
+#three{
+    grid-column-start: 3;
+    grid-column-end: 5; 
+    background-color: black;  
+}
+#four{
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-end: 3;
+    background-color: aqua;
+    
+}
+#five{
+    grid-row-start: 1;
+    grid-column-start: 7;
+    background-color: blueviolet;
+}
+#six{
+    background-color: red;
+} */
+
+/* bento box another */
+#parent{
+    
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+/* .child{
+    border: 1px solid black;
+} */
+#one{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: yellowgreen;
+}
+
+#two{
+    background-color: blueviolet;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start:1;
+    grid-row-end: 2;   
+}
+#three{
+    background-color: brown;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#four{
+    background-color: cadetblue;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}

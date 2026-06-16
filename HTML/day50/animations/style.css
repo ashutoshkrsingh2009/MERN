@@ -1,0 +1,209 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* h1{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    animation-name: change-H1-bg-colour;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes change-H1-bg-colour{
+    from{background-color: lightcoral;}
+    to{background-color: aqua; border: 5px solid black; border-radius: 50px;}
+} */
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: change-bg-colour;
+    animation-duration: 3s;
+} */
+/* @keyframes change-bg-colour{
+    from{background-color: red;}
+    to{ background-color: green;height: 500px; border: 5px solid black; border-radius: 50px;}
+} */
+
+/* use percentage in place of from and to */
+
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: change-bg-colour-2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes change-bg-colour-2{
+    0%{background-color: red;}
+    25%{background-color: yellow;}
+    50%{background-color: blue;}
+    75%{background-color: brown;}
+    100%{background-color: lightgreen;}
+} */
+
+/* css animation timing function */
+
+/* #linear{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: linear-move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes linear-move {
+  from {left: 0px;}
+  to {left: 80vw;}
+}
+
+#ease{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: ease-move;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes ease-move {
+  from {left: 0px;}
+  to {left: 80vw;}
+}
+
+#ease-in{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: ease-in-move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+}
+@keyframes ease-in-move {
+  from {left: 0px;}
+  to {left: 80vw;}
+}
+
+
+#ease-out{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: ease-out-move;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+}
+@keyframes ease-out-move {
+  from {left: 0px;}
+  to {left: 80vw;}
+}
+
+#ease-in-out{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: ease-in-out-move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes ease-in-out-move {
+  from {left: 0px;}
+  to {left: 80vw;}
+} */
+
+
+/* animation-direction */
+
+ /* #box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: move;
+    animation-duration: 3s;
+    position: relative;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes move{
+    from{left: 0px;}
+    to{left: 500px; }
+} */
+
+/* rotate */
+
+ /* #box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: rotate;
+    animation-duration: 0.1s;
+    position: relative; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+} */
+/* @keyframes rotate{
+    from{}
+    to{rotate: 360deg;}
+} */
+
+
+/* moving ball */
+/* #ball{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    animation-name: moving-ball;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+}
+@keyframes moving-ball{
+    0%{top: 0px;}
+    50%{top: 400px;}
+    100%{ top: 0px;}
+} */
+
+
+/* box-moving */
+
+ #box-move{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    animation-name: moving-box;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes moving-box{
+    0%{top: 0px;left: 0px;}
+    25%{top: 0px; left: 300px;}
+    50%{left: 300px; top:300px;}
+    75%{top: 300px; left: 0px;}
+    100%{ left: 0px; top: 0px;}
+}

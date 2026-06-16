@@ -1,0 +1,53 @@
+/* #dabba{
+    background-color: aquamarine;
+    width: 200px;
+    height:200px
+} */
+
+/* #dabba{
+    background-color: aquamarine;
+    width: 50vw;
+    height:50vw
+} */
+
+/* #outer{
+    background-color: yellowgreen;
+    height: 300px;
+    width: 300px;
+}
+#inner{
+    background-color: green;
+    height: 50%;
+    width: 50%;
+} */
+
+/* same but using vw and vh in outer */
+
+/* #outer{
+    background-color: yellowgreen;
+    height: 50vh;
+    width: 50vw;
+}
+#inner{
+    background-color: green;
+    height:50%;
+    width: 50%;
+} */
+
+/* #text{
+    font-size: 2rem;
+}
+#text2{
+    font-size: 32px;
+} */
+/* 
+#outer{
+    background-color: yellowgreen;
+    font-size: 2rem;
+}
+#middle{
+    font-size: 2em;
+}
+#inner{
+    font-size: 2em;
+} */

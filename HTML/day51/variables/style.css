@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --nav-bg-colour:#6FCF97;
+    --content-bg-colour:#a49e79;
+}
+
+#b1{
+    border: 2px solid #00ff62;
+    background-color: var(--content-bg-colour);
+}
+
+#b2{
+    border: 4px solid blue;
+    background-color: var(--content-bg-colour);
+}
+
+#b3{
+    border: 1px dotted rgb(226, 14, 49);
+    background-color: var(--content-bg-colour);
+}
+
+nav{
+    background-color:  var(--nav-bg-colour);
+}
+.abc{
+    --bg-colour: red;
+}
+.abc{
+    background-color: var(--bg-colour);
+}
+.xyz{
+    background-color: var(--bg-colour);
+}
