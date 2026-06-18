@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+    <div id="root">
+
+    </div>
+    
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script>
+        const root = ReactDOM.createRoot(document.getElementById("root"))
+        
+
+        // let myDiiv = React.createElement("div",{id : "qwerty", class : "haina"},"Hello World")
+        // let heading = React.createElement("h1",{class : "Hello",style : {color : "red",backgroundColor : "yellow"}},"Hey")
+
+        // root.render(myDiiv)
+        // root.render(heading)
+
+        // root.render([myDiiv,heading]) // react is able to render arrray of react elements
+
+        // const parent = React.createElement("div",null,React.createElement("p",null,"Hello from p tag"))
+        // const ul = React.createElement("ul",null,[
+        //     React.createElement("li",null,1),
+        //     React.createElement("li",null,2),
+        //     React.createElement("li",null,3)
+        // ])
+
+        // root.render([parent,ul])
+
+const divbar=React.createElement("div",{ id:"divbar", style:{height: "47vw",width: "100vw",backgroundColor: "red",border:"1px solid black"}},
+React.createElement("nav",{style:{height:"10vh", width:"100vw", backgroundColor:"white",display:"flex",flexDirection:"coloum",justifyContent:"space-evenly", alignItems:"center"}},
+React.createElement("img",{src:"https://www.jsv9000.app/static/media/js-logo.0cded3a3.png", alt:"logo",style:{height:"6vh",width:"6vw"}}),
+React.createElement("a",{href:"https://www.google.com/",target:"blank",style:{textDecoration:"none"}},"google"),
+React.createElement("a",{href:"https://www.youtube.com/", target:"blank",style:{textDecoration:"none"}},"youtube"),
+React.createElement("a",{href:"https://acciojob.com/",target:"blank",style:{textDecoration:"none"}},"acciojob"),
+));
+
+root.render(divbar)
+
+
+
+
+    </script>
+
+</body>
+</html>
