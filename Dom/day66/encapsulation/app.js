@@ -64,3 +64,8 @@ console.log(user);
 user.getBalance()
 user.setBalance(1234,1000)
 user.withdraw(1234,1500)
+user.withdraw(1234,100)
+user.setBalance(1234,1000)
+user.getBalance()
+user.withdraw(1234,500)
+

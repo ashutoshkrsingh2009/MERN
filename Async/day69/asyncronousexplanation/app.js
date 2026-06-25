@@ -74,20 +74,20 @@
 // clearInterval(intervalid)
 
 
-// const body =document.getElementById("bd")
-// const ad=document.createElement("article")
-// const adtext=document.createElement("h1")
-// const adclosebtn=document.createElement("button")
-// adtext.innerText="this is your ads"
-// adclosebtn.innerText="close ads"
-// ad.append(adtext,adclosebtn)
-// ad.addEventListener("click",()=>{
-//     ad.remove()
-// })
+const body =document.getElementById("bd")
+const ad=document.createElement("article")
+const adtext=document.createElement("h1")
+const adclosebtn=document.createElement("button")
+adtext.innerText="this is your ads"
+adclosebtn.innerText="close ads"
+ad.append(adtext,adclosebtn)
+ad.addEventListener("click",()=>{
+    ad.remove()
+})
 
-// setInterval(() => {
-//     body.append(ad)
-// },3000);
+setInterval(() => {
+    body.append(ad)
+},3000);
 
 
 
