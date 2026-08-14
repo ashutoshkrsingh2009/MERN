@@ -1,3 +1,5 @@
 console.log("hello from node");
 
-prompt(asdfg)
+console.log("hello ashu");
+// alert("hhhoo")
+fetch()

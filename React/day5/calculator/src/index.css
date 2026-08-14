@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#screen{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+#calc{
+    border: 2px solid rgb(212, 218, 220);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+
+}
+
+#display{
+   text-align: right;
+   font-size: 50px;
+   padding-right: 10px;
+
+   
+}
+
+#btns-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.btn{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.btn:hover{
+ background-color: lightpink;
+}

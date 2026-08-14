@@ -140,29 +140,57 @@
 // project2
 
 
-import Navbar from "./component/navbar"
-import MainContent from "./component/mainContent"
-import Footer from "./component/footer"
-import Sidebar from "./component/sidebar"
+// import Navbar from "./component/navbar"
+// import MainContent from "./component/mainContent"
+// import Footer from "./component/footer"
+// import Sidebar from "./component/sidebar"
 
-function App() {
+// function App() {
 
-  return (
+//   return (
     
-    <div>
-      <Navbar />
+//     <div>
+//       <Navbar />
 
-<div style={{ display: "flex" }}>
-  <Sidebar />
-  <MainContent />
-</div>
+// <div style={{ display: "flex" }}>
+//   <Sidebar />
+//   <MainContent />
+// </div>
      
-      <Footer/>
+//       <Footer/>
 
 
+//     </div>
+    
+//   )
+// }
+
+// export default App
+
+
+
+
+// full by own 
+
+
+
+
+import Navbar from "./component/navbar"
+import Main from "./component/mainContent"
+import Footer from "./component/footer"
+import  Sidebar from "./component/sidebar"
+
+function App (){
+  return(
+    <>
+    <Navbar/>
+    <div style={{display:"flex", flexDirection:"row"}}>
+    < Sidebar/>
+    <Main/>
     </div>
     
+    <Footer/>
+    </>
   )
 }
-
 export default App

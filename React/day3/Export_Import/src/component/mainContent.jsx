@@ -88,12 +88,12 @@
 
 //  now by using another syntax
 
-import Card from "./card"
+// import Card from "./card"
 
-function MainContent(){
-    return(
+// function MainContent(){
+//     return(
 
-        <main style={{backgroundColor:"pink",border:"1px solid black",height:"85vh",width:"85vw",display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:"20px"}} >
+//         <main style={{backgroundColor:"pink",border:"1px solid black",height:"85vh",width:"85vw",display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:"20px"}} >
 
 {/* <Card
   name="Laptop"
@@ -131,7 +131,7 @@ function MainContent(){
   image="https://images.unsplash.com/photo-1627123424574-724758594e93?w=500"
 /> */}
 
-{Card({name:"purse",price:220,image:"https://images.unsplash.com/photo-1627123424574-724758594e93?w=500"})}
+{/* {Card({name:"purse",price:220,image:"https://images.unsplash.com/photo-1627123424574-724758594e93?w=500"})}
 
 {Card({name:"purse",price:220,image:"https://images.unsplash.com/photo-1627123424574-724758594e93?w=500"})}
 
@@ -152,4 +152,24 @@ function MainContent(){
 
     )
 }
-  export default MainContent
+  export default MainContent */}
+
+
+
+  {/* by own */}
+  import Card from "./card"
+
+  function Main(){
+    return(
+
+      <div style={{height:"85vh", width:"85vw" ,border:"1px solid green",display:"grid",gridTemplateColumns:"1fr 1fr 1fr"}}>
+       
+       <Card name="ASHU" age={22} />
+       <Card name="ASHU" age={22} />
+       <Card name="ASHU" age={22} />
+       <Card name="ASHU" age={22} />
+      </div>
+
+    )
+  }
+  export default Main
